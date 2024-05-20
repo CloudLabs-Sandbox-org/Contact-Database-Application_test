@@ -1,54 +1,15 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "subscriptionId": {
-      "value": "ed8a42fa-c200-4d5a-a21e-5884cf106308"
-    },
-    "resourceGroupName": {
-      "value": "GitHub-Copilot-Challenges"
-    },
-    "name": {
-      "value": "contactdatabasehasegawa"
-    },
-    "location": {
-      "value": "East US"
-    },
-    "hostingPlanName": {
-      "value": "ASP-GitHubCopilotChallenges-a1c8"
-    },
-    "serverFarmResourceGroup": {
-      "value": "GitHub-Copilot-Challenges"
-    },
-    "alwaysOn": {
-      "value": true
-    },
-    "ftpsState": {
-      "value": "FtpsOnly"
-    },
-    "sku": {
-      "value": "Standard"
-    },
-    "skuCode": {
-      "value": "S1"
-    },
-    "workerSize": {
-      "value": "0"
-    },
-    "workerSizeId": {
-      "value": "0"
-    },
-    "numberOfWorkers": {
-      "value": "1"
-    },
-    "currentStack": {
-      "value": "dotnet"
-    },
-    "phpVersion": {
-      "value": "OFF"
-    },
-    "netFrameworkVersion": {
-      "value": "v8.0"
-    }
+      "webAppName": {
+          "value": "ContactDatabaseWebApp-saito"
+      },
+      "appServicePlanName": {
+          "value": "ContactDatabaseAppServicePlan"
+      },
+      "appServicePlanSku": {
+          "value": "F1"
+      }
   }
 }
